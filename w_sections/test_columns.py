@@ -1,5 +1,5 @@
 import math
-from columns import *
+from w_sections.columns import *
 
 # testing data
 LL_01 = Load(400000)      

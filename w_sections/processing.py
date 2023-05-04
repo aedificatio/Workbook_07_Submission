@@ -5,7 +5,7 @@ This module reads profiles from a csv file and performs some calculations
 '''
 import pandas as pd
 import numpy as np
-from .columns import SteelColumn, Load
+from w_sections.columns import SteelColumn, Load
 
 
 def read_profiles(csv_file: str) -> pd.core.frame.DataFrame:
